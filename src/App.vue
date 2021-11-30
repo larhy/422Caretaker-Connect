@@ -57,6 +57,7 @@
   padding-bottom: 0;
   background: linear-gradient(120deg, rgba(241,43,17, 0.7), rgba(245,173,25, 0.7));
   box-shadow: 1rem 1rem 2rem black;
+  z-index: 1000;
 }
 
 #nav a {

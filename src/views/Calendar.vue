@@ -9,7 +9,7 @@
 import { Kalendar } from 'kalendar-vue';
 
 export default {
-  name: 'Home',
+  name: 'Calendar',
   components: {
 	Kalendar,
   },
