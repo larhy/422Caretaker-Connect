@@ -131,8 +131,24 @@
                     <label style="font-weight: bold">Days and Times</label>
                     <div id="timepickers">
                         <div class="timepick" v-for="day in ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday']" :key="day">
-                            <label>{{day}}</label>
-                            <b-form-timepicker locale="en"></b-form-timepicker>
+                            <label style="font-weight: bold">{{day}}</label>
+                            <b-row class="my-1">
+                                <b-col sm="2">
+                                    <label>Start</label>
+                                </b-col>
+                                <b-col sm="8">
+                                    <b-form-timepicker locale="en"></b-form-timepicker>
+                                </b-col>
+                            </b-row>
+                            <b-row class="my-1">
+                                <b-col sm="2">
+                                    <label>End</label>
+                                </b-col>
+                                <b-col sm="8">
+                                    <b-form-timepicker locale="en"></b-form-timepicker>
+                                </b-col>
+                            </b-row>
+                            
                         </div>
                     </div>
                 </div>

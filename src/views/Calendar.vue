@@ -30,14 +30,34 @@ export default {
         },
         events: [
             {
-                from: '2020-03-18T18:00:00Z',
-                to: '2020-03-18T19:00:00Z',
-                data: 'Event 1',
+                from: '2021-11-29T12:00:00Z',
+                to: '2021-11-29T18:00:00Z',
+                data: 'Annie Jacob: 3001 Taylor Street Chicago, IL 60607',
             },
             {
-                from: '2020-03-18T19:00:00Z',
-                to: '2020-03-18T21:00:00Z',
-                data: 'Olive & Friends',
+                from: '2021-12-01T12:00:00Z',
+                to: '2021-12-01T18:00:00Z',
+                data: 'Annie Jacob: 3001 Taylor Street Chicago, IL 60607',
+            },
+            {
+                from: '2021-12-03T12:00:00Z',
+                to: '2021-12-03T18:00:00Z',
+                data: 'Annie Jacob: 3001 Taylor Street Chicago, IL 60607',
+            },
+            {
+                from: '2021-12-06T12:00:00Z',
+                to: '2021-12-06T18:00:00Z',
+                data: 'Annie Jacob: 3001 Taylor Street Chicago, IL 60607',
+            },
+            {
+                from: '2021-12-08T12:00:00Z',
+                to: '2021-12-08T18:00:00Z',
+                data: 'Annie Jacob: 3001 Taylor Street Chicago, IL 60607',
+            },
+            {
+                from: '2021-12-10T12:00:00Z',
+                to: '2021-12-10T18:00:00Z',
+                data: 'Annie Jacob: 3001 Taylor Street Chicago, IL 60607',
             },
         ],
     }
@@ -67,4 +87,32 @@ export default {
 }
 
 
+
+</style>
+
+<style>
+
+.kalendar-cell .selected .has-events {
+  font-size: 0.5rem !important;
+}
+
+.kalendar-cell {
+  font-size: 0.5rem !important;
+}
+
+
+
+.created-event {
+    font-size: 0.5rem !important;
+}
+
+@media screen and (max-width: 768px) {
+  h4 {
+    font-size: 0.5rem !important;
+  }
+
+  .created-event {
+    font-size: 0.5rem !important;
+  }
+} 
 </style>
